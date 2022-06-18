@@ -1,0 +1,42 @@
+h1{
+    color: #846372;
+    text-align: center;
+    padding-right: 40px;
+    padding: 30px, 40px, 30px, 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #000;
+}
+
+#board{
+    align-items: center;
+    justify-content: center;
+    padding-left: 33.9%;
+}
+
+#board td {
+    /*should be CIRCULOSSSSS*/
+    width: 50px;
+    height: 50px;
+    border: solid 1px #638475;
+}
+
+.piece {
+    margin: 5px;
+    width: 80%;
+    height: 80%;
+}
+/*make diff colored pieces for diff players
+p1: #F1D302
+p2: #CE4760*/
+
+/*clickables*/
+#column-top td{
+    border: dashed 1px #42584e
+}
+
+#column-top td:hover{
+    background-color: #638475;
+}
